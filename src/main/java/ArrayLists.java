@@ -81,10 +81,10 @@ public class ArrayLists {
         System.out.println(myRights);
 
         for (Boolean word : myRights){
-            if (word == true){
-                System.out.println(word + "Better Bring an umbrella");
-            } else if (word == false){
-                System.out.println(word + "No rain today, enjoy the sun");
+            if (word){
+                System.out.println(word + " | " + "Better Bring an umbrella");
+            } else if (!word){
+                System.out.println(word + " | " + "No rain today, enjoy the sun");
             }
         }
 
